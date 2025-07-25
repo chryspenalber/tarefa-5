@@ -19,13 +19,13 @@ function rodaJogo() {
         } else {
             tentativas--
             if (palpite < numeroSecreto) {
-                resultado.innerHTML = `Você errou! Seu palpite ${palpite} é menor que o número secreto.`
+                resultado.innerHTML = `Você errou!<br> Seu palpite ${palpite} é menor que o número secreto.`
             } else {
-                resultado.innerHTML = `Você errou! Seu palpite ${palpite} é maior que o número secreto.`
+                resultado.innerHTML = `Você errou!<br> Seu palpite ${palpite} é maior que o número secreto.`
             }
 
             if (tentativas > 0) {
-                tentativasRestantes.innerHTML = `Você tem ${tentativas} restantes.`
+                tentativasRestantes.innerHTML = `Você tem ${tentativas} tentativas restantes.`
             } else {
                 tentativasRestantes.innerHTML = `Você perdeu! O número secreto era ${numeroSecreto}`
             }

@@ -52,7 +52,12 @@ h1 {
 
 header p{
     margin: auto;
+    font-size: clamp(0.8em, 2vw, 1.2rem);
+}
+
+main p {
     font-size: clamp(0.8em, 2vw, 1.3rem);
+    margin-bottom: 10px;
 }
 
 .palpite-container {
