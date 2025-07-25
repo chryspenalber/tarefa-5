@@ -1,21 +1,12 @@
-Aqui está o **README** em português, estruturado e pronto para ser usado no seu repositório do GitHub, seguindo o padrão profissional que você solicitou:
-
----
-
 # 🎯 Jogo de Adivinhação | Desenvolvido por Chrys Penalber
 
 Este projeto é uma tarefa prática do curso de **Engenheiro Front-End da EBAC**. O objetivo foi desenvolver um jogo de adivinhação simples e interativo utilizando HTML, CSS e JavaScript puro, aplicando conceitos de lógica condicional, manipulação do DOM e responsividade.
 
-## 📸 Preview
-
-*Inclua aqui uma imagem ou GIF do jogo rodando (opcional).*
-
----
 
 ## 🔗 Links
 
 * 🔴 [Live Site](https://seu-link-aqui.vercel.app/)
-* 💻 [Repositório no GitHub](https://github.com/seuusuario/jogo-adivinhacao)
+* 💻 [Repositório no GitHub](https://github.com/chryspenalber/tarefa-5)
 
 ---
 
@@ -71,7 +62,3 @@ A interface foi projetada para funcionar bem em diferentes tamanhos de tela, uti
 
 * GitHub - [@chryspenalber](https://github.com/chryspenalber)
 * LinkedIn - [Chrystiana Penalber](https://www.linkedin.com/in/chrystiana-penalber/)
-
----
-
-Se quiser, posso também gerar a versão em **inglês**. Deseja?
