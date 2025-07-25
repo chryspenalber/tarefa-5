@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Bitcount:wght@100..900&display=swap');
+
+:root {
+    --color-primary: #297B48;
+    --color-secundary: #27586B;
+    --color-tertiary: #6E9B34;
+    --color-bg: #7C9585;
+    --color-text-light: #fff;
+    --color-text-dark: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--color-bg);
+    display: flex;
+    height: 100vh;
+}
+
+body {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 15px 25px;
+    border: 2px solid var(--color-secundary);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    font-family: monospace;
+    text-align: center;
+
+}
+
+header {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bitcount", system-ui;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    text-align: center;
+    color: var(--color-text-dark);
+}
+
+header p{
+    margin: auto;
+    font-size: clamp(0.8em, 2vw, 1.3rem);
+}
+
+.palpite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.palpite {
+    width: 40%;
+}
+
+label,input {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    margin-top: 10px;
+}
+
+button {
+    background-color: var(--color-secundary);
+    color: var(--color-text-light);
+    padding: 8px 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+    width: 30%;
+    font-family: monospace;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border-bottom-style: inset;
+}
+
